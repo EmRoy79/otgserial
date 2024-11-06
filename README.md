@@ -38,7 +38,7 @@ You can customize various settings of the OTGSerial library using precompiler de
 | `OTG_CLIENT_NUM_EVENT_MSG`| Define the number of event messages for the OTG client. | 5             |
 | `OTG_HW_CONTROL`         | Optional hardware control definition. Uncomment to enable hardware control features. | Not defined   |
 
-```
+
 
 ## Usage
 
