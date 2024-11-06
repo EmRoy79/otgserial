@@ -30,7 +30,7 @@ You can customize various settings of the OTGSerial library using precompiler de
 |--------------------------|-----------------------------------------------------|---------------|
 | `OTG_IN_BUFFER_SIZE`     | Define the size of the OTG inbound buffer.          | 1024 bytes    |
 | `OTG_OUT_BUFFER_SIZE`    | Define the size of the OTG outbound buffer.         | 256 bytes     |
-| `OTG_SERIAL_SETTINGS`    | Define the serial settings for OTG communication.   | `CS8 | NONE | STOP1` |
+| `OTG_SERIAL_SETTINGS`    | Define the serial settings for OTG communication.   | CS8 | NONE | STOP1 |
 | `OTG_DAEMON_TASK_CORE`   | Define the core for the OTG daemon task.            | 0             |
 | `OTG_DAEMON_TASK_PRIORITY`| Define the priority for the OTG daemon task.       | 2             |
 | `OTG_CLASS_TASK_CORE`    | Define the core for the OTG class task.             | 1             |
