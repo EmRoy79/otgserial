@@ -193,6 +193,8 @@ void OTGSerialClass::client_event_cb(const usb_host_client_event_msg_t *event_ms
             }
             break;
         case USB_HOST_CLIENT_EVENT_DEV_GONE:
+	    _connected=false;
+            _error=false;
             if (driver_obj->dev_hdl != NULL) {
                 driver_obj->actions = ACTION_CLOSE_DEV;
                 ESP_LOGD(TAG,"Device disconnected, scheduling close action.");
